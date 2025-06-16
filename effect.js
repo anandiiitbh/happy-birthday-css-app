@@ -204,7 +204,7 @@ $("document").ready(function () {
     function msgLoop(i) {
       $("p:nth-child(" + i + ")")
         .fadeOut("slow")
-        .delay(5000)
+        .delay(800)
         .promise()
         .done(function () {
           i = i + 1;
