@@ -1,0 +1,18 @@
+{
+  // These tasks will run in order when initializing your CodeSandbox project.
+  "setupTasks": [
+    {
+      "command": "python -m http.server 8000",
+      "name": "cd happy-birthday-css-app"
+    }
+  ],
+
+  // These tasks can be run from CodeSandbox. Running one will open a log in the app.
+  "tasks": {
+    "cd happy-birthday-css-app && python -m http.server 8000": {
+      "name": "cd happy-birthday-css-app && python -m http.server 8000",
+      "command": "python -m http.server 8000",
+      "runAtStart": true
+    }
+  }
+}
